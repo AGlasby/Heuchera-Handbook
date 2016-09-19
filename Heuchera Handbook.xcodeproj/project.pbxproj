@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E71C0C381D8FDFB9006BC275 /* Heucheras+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E71C0C351D8FDFB9006BC275 /* Heucheras+CoreDataClass.m */; };
+		E71C0C391D8FDFB9006BC275 /* Heucheras+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = E71C0C371D8FDFB9006BC275 /* Heucheras+CoreDataProperties.m */; };
 		E74990761D8FBE6A00AC72A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E74990751D8FBE6A00AC72A1 /* main.m */; };
 		E74990791D8FBE6A00AC72A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E74990781D8FBE6A00AC72A1 /* AppDelegate.m */; };
 		E749907C1D8FBE6A00AC72A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E749907B1D8FBE6A00AC72A1 /* ViewController.m */; };
@@ -17,12 +19,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E71C0C341D8FDFB9006BC275 /* Heucheras+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Heucheras+CoreDataClass.h"; sourceTree = "<group>"; };
+		E71C0C351D8FDFB9006BC275 /* Heucheras+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Heucheras+CoreDataClass.m"; sourceTree = "<group>"; };
+		E71C0C361D8FDFB9006BC275 /* Heucheras+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Heucheras+CoreDataProperties.h"; sourceTree = "<group>"; };
+		E71C0C371D8FDFB9006BC275 /* Heucheras+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Heucheras+CoreDataProperties.m"; sourceTree = "<group>"; };
 		E74990711D8FBE6A00AC72A1 /* Heuchera Handbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Heuchera Handbook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E74990751D8FBE6A00AC72A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E74990771D8FBE6A00AC72A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E74990781D8FBE6A00AC72A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E749907A1D8FBE6A00AC72A1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E749907B1D8FBE6A00AC72A1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E749907A1D8FBE6A00AC72A1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = "Heuchera Handbook/ViewController.h"; sourceTree = "<group>"; };
+		E749907B1D8FBE6A00AC72A1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = "Heuchera Handbook/ViewController.m"; sourceTree = "<group>"; };
 		E749907E1D8FBE6A00AC72A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E74990811D8FBE6A00AC72A1 /* Heuchera_Handbook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Heuchera_Handbook.xcdatamodel; sourceTree = "<group>"; };
 		E74990831D8FBE6A00AC72A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,15 +66,15 @@
 		E74990731D8FBE6A00AC72A1 /* Heuchera Handbook */ = {
 			isa = PBXGroup;
 			children = (
+				E74990A81D8FC4A800AC72A1 /* Controller */,
+				E74990A71D8FC49D00AC72A1 /* View */,
+				E74990A61D8FC47100AC72A1 /* Model */,
 				E74990771D8FBE6A00AC72A1 /* AppDelegate.h */,
 				E74990781D8FBE6A00AC72A1 /* AppDelegate.m */,
-				E749907A1D8FBE6A00AC72A1 /* ViewController.h */,
-				E749907B1D8FBE6A00AC72A1 /* ViewController.m */,
 				E749907D1D8FBE6A00AC72A1 /* Main.storyboard */,
 				E74990831D8FBE6A00AC72A1 /* Assets.xcassets */,
 				E74990851D8FBE6A00AC72A1 /* LaunchScreen.storyboard */,
 				E74990881D8FBE6A00AC72A1 /* Info.plist */,
-				E74990801D8FBE6A00AC72A1 /* Heuchera_Handbook.xcdatamodeld */,
 				E74990741D8FBE6A00AC72A1 /* Supporting Files */,
 			);
 			path = "Heuchera Handbook";
@@ -80,6 +86,37 @@
 				E74990751D8FBE6A00AC72A1 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E74990A61D8FC47100AC72A1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E71C0C341D8FDFB9006BC275 /* Heucheras+CoreDataClass.h */,
+				E71C0C351D8FDFB9006BC275 /* Heucheras+CoreDataClass.m */,
+				E71C0C361D8FDFB9006BC275 /* Heucheras+CoreDataProperties.h */,
+				E71C0C371D8FDFB9006BC275 /* Heucheras+CoreDataProperties.m */,
+				E74990801D8FBE6A00AC72A1 /* Heuchera_Handbook.xcdatamodeld */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		E74990A71D8FC49D00AC72A1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		E74990A81D8FC4A800AC72A1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E749907A1D8FBE6A00AC72A1 /* ViewController.h */,
+				E749907B1D8FBE6A00AC72A1 /* ViewController.m */,
+			);
+			name = Controller;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,8 +192,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E74990821D8FBE6A00AC72A1 /* Heuchera_Handbook.xcdatamodeld in Sources */,
+				E71C0C381D8FDFB9006BC275 /* Heucheras+CoreDataClass.m in Sources */,
 				E749907C1D8FBE6A00AC72A1 /* ViewController.m in Sources */,
 				E74990791D8FBE6A00AC72A1 /* AppDelegate.m in Sources */,
+				E71C0C391D8FDFB9006BC275 /* Heucheras+CoreDataProperties.m in Sources */,
 				E74990761D8FBE6A00AC72A1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,6 +355,7 @@
 				E749908D1D8FBE6A00AC72A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -326,7 +366,8 @@
 				E74990811D8FBE6A00AC72A1 /* Heuchera_Handbook.xcdatamodel */,
 			);
 			currentVersion = E74990811D8FBE6A00AC72A1 /* Heuchera_Handbook.xcdatamodel */;
-			path = Heuchera_Handbook.xcdatamodeld;
+			name = Heuchera_Handbook.xcdatamodeld;
+			path = "Heuchera Handbook/Heuchera_Handbook.xcdatamodeld";
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

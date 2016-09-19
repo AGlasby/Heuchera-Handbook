@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
+#import "Heucheras+CoreDataClass.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
@@ -15,6 +16,7 @@
 
 @property (readonly, strong) NSPersistentContainer *persistentContainer;
 
+- (Heucheras *)createHeuchera;
 - (void)saveContext;
 
 

@@ -47,6 +47,7 @@
 
  }
 
+
 -(void)updateLogList {
     NSManagedObjectContext *moc = [[self.appDelegate persistentContainer] viewContext];
     NSFetchRequest *request = [NSFetchRequest fetchRequestWithEntityName:@"Heucheras"];
@@ -61,7 +62,18 @@
         [buffer appendFormat:@" Name: %@\n Leaves: %@\n Flowers: %@\n \n", h.plantName, h.leafColour, h.flowerColour, nil];
     }
     self.objectsLbl.text = buffer;
+    NSMutableString *objectsBuffer =[NSMutableString stringWithFormat:@""];
+
+    NSInteger objectCount = results.count;
+    if(objectCount == 1){
+        [objectsBuffer appendFormat:@" There is %ld object in the store", (long)objectCount, nil];
+        self.objectCountLbl.text = objectsBuffer;
+    } else {
+    [objectsBuffer appendFormat:@" There are %ld objects in the store", (long)objectCount, nil];
+    self.objectCountLbl.text = objectsBuffer;
+    }
 }
+
 
  - (IBAction)clearDataBtnTapped:(id)sender {
      NSManagedObjectContext *moc = [[self.appDelegate persistentContainer] viewContext];
@@ -78,5 +90,6 @@
      [self.appDelegate saveContext];
      [self updateLogList];
  }
+
 
 @end

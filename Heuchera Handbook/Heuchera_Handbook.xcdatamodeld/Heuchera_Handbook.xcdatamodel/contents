@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11232" systemVersion="15G1004" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
-    <entity name="Heucheras" representedClassName=".Heucheras" syncable="YES">
+    <entity name="Heucheras" representedClassName="Heucheras" syncable="YES" codeGenerationType="class">
         <attribute name="flowerColour" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="leafColour" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="plantName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="ownedOrWanted" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Ownership" inverseName="plant" inverseEntity="Ownership" syncable="YES"/>
+    </entity>
+    <entity name="Ownership" representedClassName="Ownership" syncable="YES" codeGenerationType="class">
+        <attribute name="owned" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="quantity" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="wanted" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="plant" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Heucheras" inverseName="ownedOrWanted" inverseEntity="Heucheras" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Heucheras" positionX="-342" positionY="-282" width="128" height="90"/>
+        <element name="Heucheras" positionX="-585" positionY="-303" width="128" height="105"/>
+        <element name="Ownership" positionX="-324" positionY="-243" width="128" height="105"/>
     </elements>
 </model>

@@ -1,5 +1,5 @@
 //
-//  Heucheras+CoreDataClass.m
+//  Ownership+CoreDataClass.m
 //  Heuchera Handbook
 //
 //  Created by Alan Glasby on 20/09/2016.
@@ -7,8 +7,8 @@
 //  This file was automatically generated and should not be edited.
 //
 
-#import "Heucheras+CoreDataClass.h"
 #import "Ownership+CoreDataClass.h"
-@implementation Heucheras
+#import "Heucheras+CoreDataClass.h"
+@implementation Ownership
 
 @end

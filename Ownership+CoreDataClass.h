@@ -1,5 +1,5 @@
 //
-//  Heucheras+CoreDataClass.h
+//  Ownership+CoreDataClass.h
 //  Heuchera Handbook
 //
 //  Created by Alan Glasby on 20/09/2016.
@@ -10,14 +10,14 @@
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
 
-@class Ownership;
+@class Heucheras;
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Heucheras : NSManagedObject
+@interface Ownership : NSManagedObject
 
 @end
 
 NS_ASSUME_NONNULL_END
 
-#import "Heucheras+CoreDataProperties.h"
+#import "Ownership+CoreDataProperties.h"

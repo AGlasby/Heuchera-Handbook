@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E71C0C381D8FDFB9006BC275 /* Heucheras+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E71C0C351D8FDFB9006BC275 /* Heucheras+CoreDataClass.m */; };
-		E71C0C391D8FDFB9006BC275 /* Heucheras+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = E71C0C371D8FDFB9006BC275 /* Heucheras+CoreDataProperties.m */; };
+		E71C0C811D917313006BC275 /* Heucheras+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E71C0C7A1D917313006BC275 /* Heucheras+CoreDataClass.m */; };
+		E71C0C821D917313006BC275 /* Heucheras+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = E71C0C7C1D917313006BC275 /* Heucheras+CoreDataProperties.m */; };
+		E71C0C831D917313006BC275 /* Ownership+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E71C0C7E1D917313006BC275 /* Ownership+CoreDataClass.m */; };
+		E71C0C841D917313006BC275 /* Ownership+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = E71C0C801D917313006BC275 /* Ownership+CoreDataProperties.m */; };
 		E74990761D8FBE6A00AC72A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E74990751D8FBE6A00AC72A1 /* main.m */; };
 		E74990791D8FBE6A00AC72A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E74990781D8FBE6A00AC72A1 /* AppDelegate.m */; };
 		E749907C1D8FBE6A00AC72A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E749907B1D8FBE6A00AC72A1 /* ViewController.m */; };
@@ -19,10 +21,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E71C0C341D8FDFB9006BC275 /* Heucheras+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Heucheras+CoreDataClass.h"; sourceTree = "<group>"; };
-		E71C0C351D8FDFB9006BC275 /* Heucheras+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Heucheras+CoreDataClass.m"; sourceTree = "<group>"; };
-		E71C0C361D8FDFB9006BC275 /* Heucheras+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Heucheras+CoreDataProperties.h"; sourceTree = "<group>"; };
-		E71C0C371D8FDFB9006BC275 /* Heucheras+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Heucheras+CoreDataProperties.m"; sourceTree = "<group>"; };
+		E71C0C791D917313006BC275 /* Heucheras+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Heucheras+CoreDataClass.h"; sourceTree = "<group>"; };
+		E71C0C7A1D917313006BC275 /* Heucheras+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Heucheras+CoreDataClass.m"; sourceTree = "<group>"; };
+		E71C0C7B1D917313006BC275 /* Heucheras+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Heucheras+CoreDataProperties.h"; sourceTree = "<group>"; };
+		E71C0C7C1D917313006BC275 /* Heucheras+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Heucheras+CoreDataProperties.m"; sourceTree = "<group>"; };
+		E71C0C7D1D917313006BC275 /* Ownership+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Ownership+CoreDataClass.h"; sourceTree = "<group>"; };
+		E71C0C7E1D917313006BC275 /* Ownership+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Ownership+CoreDataClass.m"; sourceTree = "<group>"; };
+		E71C0C7F1D917313006BC275 /* Ownership+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Ownership+CoreDataProperties.h"; sourceTree = "<group>"; };
+		E71C0C801D917313006BC275 /* Ownership+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Ownership+CoreDataProperties.m"; sourceTree = "<group>"; };
 		E74990711D8FBE6A00AC72A1 /* Heuchera Handbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Heuchera Handbook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E74990751D8FBE6A00AC72A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E74990771D8FBE6A00AC72A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -91,10 +97,14 @@
 		E74990A61D8FC47100AC72A1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				E71C0C341D8FDFB9006BC275 /* Heucheras+CoreDataClass.h */,
-				E71C0C351D8FDFB9006BC275 /* Heucheras+CoreDataClass.m */,
-				E71C0C361D8FDFB9006BC275 /* Heucheras+CoreDataProperties.h */,
-				E71C0C371D8FDFB9006BC275 /* Heucheras+CoreDataProperties.m */,
+				E71C0C791D917313006BC275 /* Heucheras+CoreDataClass.h */,
+				E71C0C7A1D917313006BC275 /* Heucheras+CoreDataClass.m */,
+				E71C0C7B1D917313006BC275 /* Heucheras+CoreDataProperties.h */,
+				E71C0C7C1D917313006BC275 /* Heucheras+CoreDataProperties.m */,
+				E71C0C7D1D917313006BC275 /* Ownership+CoreDataClass.h */,
+				E71C0C7E1D917313006BC275 /* Ownership+CoreDataClass.m */,
+				E71C0C7F1D917313006BC275 /* Ownership+CoreDataProperties.h */,
+				E71C0C801D917313006BC275 /* Ownership+CoreDataProperties.m */,
 				E74990801D8FBE6A00AC72A1 /* Heuchera_Handbook.xcdatamodeld */,
 			);
 			name = Model;
@@ -192,11 +202,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E74990821D8FBE6A00AC72A1 /* Heuchera_Handbook.xcdatamodeld in Sources */,
-				E71C0C381D8FDFB9006BC275 /* Heucheras+CoreDataClass.m in Sources */,
+				E71C0C811D917313006BC275 /* Heucheras+CoreDataClass.m in Sources */,
 				E749907C1D8FBE6A00AC72A1 /* ViewController.m in Sources */,
+				E71C0C841D917313006BC275 /* Ownership+CoreDataProperties.m in Sources */,
 				E74990791D8FBE6A00AC72A1 /* AppDelegate.m in Sources */,
-				E71C0C391D8FDFB9006BC275 /* Heucheras+CoreDataProperties.m in Sources */,
+				E71C0C821D917313006BC275 /* Heucheras+CoreDataProperties.m in Sources */,
 				E74990761D8FBE6A00AC72A1 /* main.m in Sources */,
+				E71C0C831D917313006BC275 /* Ownership+CoreDataClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
